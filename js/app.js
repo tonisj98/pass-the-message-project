@@ -18,9 +18,18 @@ form.addEventListener('submit', function(e){
 
     else {
         let messageEmpty = document.querySelector('h5.feedback')
+
+        // si el .value del input es vacio, añadimos la clase 'show' 
+        // que va a modificar la propiedad display
         messageEmpty.classList.add('show')
+        // La functión setTimout toma dos parámetros
+        // 1. El primero es una function. Esta function se va a ejecutar
+        // justo cuando hayan pasado los milisegundos indicados en el parámetro dos
+        // 2. El segundo parámetro es un entero(number) con los segundos
+        // que va esperar el script antes de ejecutar la función del primer parámetro
         setTimeout( () => {
-            messageEmpty.classList.add('show')
+            //Eliminamos la clase que nos permitia mostrar el elemento
+            messageEmpty.classList.remove('show')
         }, 2000);
 
     }
