@@ -21,3 +21,7 @@ Finalmente, en __js/solution_provided.js__ tienes una solución del autor origin
 ## Demo del proyecto
 
 [Demo](https://js-beginners.github.io/pass-the-message-project/)
+
+## Solución
+
+Solución propuesta por [Cristian Cullell](https://github.com/cristian-cll/pass-the-message-projects)
