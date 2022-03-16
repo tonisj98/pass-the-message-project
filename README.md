@@ -3,9 +3,7 @@ Queremos que, al hacer clic en el botón "Enviar", el texto que hayamos introduc
 
 ## Pasos a seguir
 
-1. Intenta primero simplemente recuperar el elemento del DOM al que debes aplicar el evento __click__
-2. Comprueba que eres capaz de aplicarlo, haciendo una prueba simple, como por ejemplo, que al hacer clic, muestre un mensaje por la consola.
-3. Después, haz que al hacer clic en el botón, intenta escribir alguna cosa debajo de **Last Message Delivered**. Cualquier texto.
+1. Al hacer hacer clic en el botón de submit, intenta escribir alguna cosa debajo de **Last Message Delivered**. Cualquier texto.
 4. Investiga un poco sobre como conseguir el valor de un campo [input](https://www.w3schools.com/jsref/prop_text_value.asp). 
 5. Usa la información del punto anterior para conseguir el valor del campo __input__, y escríbelo en el elemento del DOM adecuado.
 6. **BONUS**. Fíjate en la demo como se comporta la aplicación cuando no existe un mensaje en el __input__ y le damos a Enviar. ¿Serías capaz de emular dicho comportamiento?
