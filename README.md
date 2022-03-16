@@ -1,12 +1,13 @@
 # Pasa el mensaje!
 Queremos que, al hacer clic en el botón "Enviar", el texto que hayamos introducido en el __input__ sea escrito debajo de **Last Message Delivered** 
+Puedes aplicar las validaciones de formulario que creas adecuadas.
 
 ## Pasos a seguir
 
 1. Al hacer hacer clic en el botón de submit, intenta escribir alguna cosa debajo de **Last Message Delivered**. Cualquier texto.
-4. Investiga un poco sobre como conseguir el valor de un campo [input](https://www.w3schools.com/jsref/prop_text_value.asp). 
-5. Usa la información del punto anterior para conseguir el valor del campo __input__, y escríbelo en el elemento del DOM adecuado.
-6. **BONUS**. Fíjate en la demo como se comporta la aplicación cuando no existe un mensaje en el __input__ y le damos a Enviar. ¿Serías capaz de emular dicho comportamiento?
+2. Investiga un poco sobre como conseguir el valor de un campo [input](https://www.w3schools.com/jsref/prop_text_value.asp). 
+3. Usa la información del punto anterior para conseguir el valor del campo __input__, y escríbelo en el elemento del DOM adecuado.
+4. **BONUS**. Fíjate en la demo como se comporta la aplicación cuando no existe un mensaje en el __input__ y le damos a Enviar. ¿Serías capaz de emular dicho comportamiento?
 
 Finalmente, en __js/solution_provided.js__ tienes una solución del autor original.
 
